@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Tech Conference 2025",
+    "description": "Learn about the latest trends in tech!",
+    "location": "San Francisco, CA",
+    "date": "2025-03-15",
+    "category": "Technology",
+    "ticketsAvailable": 50,
+    "price": 100
+  },
+  {
+    "id": "2",
+    "title": "Music Festival",
+    "description": "Experience live music like never before.",
+    "location": "Austin, TX",
+    "date": "2025-04-10",
+    "category": "Music",
+    "ticketsAvailable": 200,
+    "price": 50
+  },
+  {
+    "id": "3",
+    "title": "Art Exhibition",
+    "description": "Discover modern art from around the globe.",
+    "location": "New York, NY",
+    "date": "2025-05-05",
+    "category": "Art",
+    "ticketsAvailable": 30,
+    "price": 20
+  }
+]
