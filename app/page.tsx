@@ -1,5 +1,6 @@
+import { Event } from "@/lib/events";
+
 export default async function Home() {
-  // Fetch the data from the API
   const res = await fetch("http://localhost:3000/api/events", {
     cache: "force-cache",
   });
@@ -11,12 +12,10 @@ export default async function Home() {
   const events = await res.json();
 
   return (
-    <div>
-      <ul>
-        {events.map((event: any, index: number) => (
-          <li key={index}>{event.title}</li>
-        ))}
-      </ul>
-    </div>
+    <ul className="min-h-screen block text-center content-center">
+      {events.map((event: Event, index: number) => (
+        <li key={index}>{event.title}</li>
+      ))}
+    </ul>
   );
 }
